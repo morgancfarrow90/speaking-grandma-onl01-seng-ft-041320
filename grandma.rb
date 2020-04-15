@@ -2,14 +2,13 @@
 
 speak_to_grandma = ""
 
-  if speak_to_grandma != speak_to_grandma.upcase
-    puts "HUH! SPEAK UP, SONNY!"
-  elseif speak_to_grandma == phrase.upcase
+if speak_to_grandma != speak_to_grandma.upcase
+  puts "HUH! SPEAK UP, SONNY!"
+elsif speak_to_grandma == phrase.upcase
     puts "NO, NOT SINCE 1938!"
-  else speak_to_grandma == "I LOVE YOU GRANDMA!"
+else speak_to_grandma == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-
-return speak_to_grandma
+end
 
   
   
