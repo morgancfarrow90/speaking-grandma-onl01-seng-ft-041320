@@ -3,12 +3,14 @@
 speak_to_grandma = "Hi, Grandma"
 
   if speak_to_grandma != speak_to_grandma.upcase
-    return "HUH! SPEAK UP, SONNY!"
+    puts "HUH! SPEAK UP, SONNY!"
   elseif speak_to_grandma == phrase.upcase
-    return "NO, NOT SINCE 1938!"
+    puts "NO, NOT SINCE 1938!"
   else speak_to_grandma == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
-    
+    puts "I LOVE YOU TOO PUMPKIN!"
+
+speak_to_grandma
+
   
   
   
