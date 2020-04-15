@@ -7,7 +7,7 @@ speak_to_grandma = "Hi, Grandma"
   elseif speak_to_grandma == phrase.upcase
     return "NO, NOT SINCE 1938!"
   else speak_to_grandma == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"}
+    return "I LOVE YOU TOO PUMPKIN!"
     
   
   
