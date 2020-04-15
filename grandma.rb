@@ -3,7 +3,7 @@
 def speak_to_grandma(phrase)
   if ${phrase} == phrase.lowercase
     return "HUH! SPEAK UP, SONNY!"
-  elseif ${phrase} ==phrase.uppercase
+  elseif ${phrase} == phrase.uppercase
     return "NO, NOT SINCE 1938!"
   else ${phrase} = "I LOVE YOU GRANDMA!"
     return = "I LOVE YOU TOO PUMPKIN!"
